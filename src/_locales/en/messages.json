@@ -1,0 +1,12 @@
+{
+    "extensionName": {
+      "message": "My Extension"
+    },
+    "greeting": {
+      "message": "Hello, world!"
+    },
+    "someOtherMessage": {
+      "message": "This is another message."
+    }
+  }
+  

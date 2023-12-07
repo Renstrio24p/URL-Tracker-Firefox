@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .5s ease-in-out;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-family: 'Poppins';
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--deepsea-dark);
+    min-width: 400px;
+}
+
+:root {
+    --deepsea: rgb(18, 53, 53);
+    --dark-gray: #343944;
+    --dark-gray-hover: #646977;
+    --deepsea-dark: #23272F;
+    --text-color: #929AAC;
+    --dark: #16181D;
+    --name-text: #7f6a26;
+    --secured-text: #ce8832;
+    --secure-text: #73B9AC;
+    --domain-text: #71AECC;
+}
+
+:where(input,button,.error){
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: var(--text-color);
+    border-radius: 3px;
+    outline: none;
+}
+
+input {
+    width: 100%; /* 100% + 10px + 10px */
+    padding: 10px;
+    background-color: var(--dark-gray);
+    margin-bottom: 4px;
+    border: none;
+}
+
+button:hover {
+    background-color: var(--dark-gray-hover);
+    color: var(--deepsea-dark);
+}
+
+button {
+    background: var(--dark-gray);
+    padding: 10px 20px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+ul {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--dark);
+}
+

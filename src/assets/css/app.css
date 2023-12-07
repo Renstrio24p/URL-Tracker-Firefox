@@ -1,0 +1,111 @@
+
+.wrapper {
+    background-color: var(--dark-gray);
+    margin-top: 4px;
+    padding: 10px 0 0;
+    border-radius: 5px;
+    color: var(--text-color);
+}
+
+.wrapper p {
+    padding: 0 10px 10px;
+}
+
+.wrapper li {
+    color: var(--domain-text);
+}
+
+.wrapper {
+    display: none;
+}
+
+ul li:hover {
+    background-color: rgba(64, 67, 66, 0.534);
+}
+
+.domain {
+    color: rgb(162, 135, 47);
+}
+
+.secure {
+    color: var(--secured-text)
+}
+
+.domain_name {
+    color: darksalmon;
+}
+
+pre {
+    color: rgb(156, 137, 42);
+    font-size: 1.2em;
+}
+
+.slashes {
+    color: chocolate;
+}
+
+.name-vercel {
+    color: brown;
+}
+
+.name-netlify {
+    color: green;
+}
+
+.name-com {
+    color: yellow;
+}
+
+.name-github {
+    color: teal;
+}
+
+.name-io {
+    color: chartreuse;
+}
+
+.name-app {
+    color: green;
+}
+
+.name-net {
+    color: blueviolet;
+}
+
+.name-ph {
+    color: rgb(180, 172, 151);
+}
+
+.error {
+    background-color: rgb(50, 22, 22);
+    color: rgb(185, 175, 175);
+    margin-top: 5px;
+    padding: 10px;
+}
+
+ul li {
+    cursor: pointer;
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+    padding-left: 5px;
+}
+
+li input[type='button']{
+    width: fit-content;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+li input[type='button']:hover{
+    background-color: var(--dark-gray-hover);
+    
+}
+
+:where(li:not(:last-child)){
+    margin-bottom: 4px;
+    color: var(--dark-gray);
+}
+
+a {
+    width: 100%;
+}
