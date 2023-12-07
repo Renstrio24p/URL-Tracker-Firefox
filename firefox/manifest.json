@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "URL tracker",
+    "version": "1.0",
+    "description": "Description of your extension",
+    "icons": {
+      "48": "images/Typescript.png"
+    },
+    "browser_action": {
+      "default_icon": "images/Typescript.png",
+      "default_popup": "index.html"
+    },
+    "permissions": [],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["assets/index.js"]
+      }
+    ],
+    "default_locale": "en"
+  }
